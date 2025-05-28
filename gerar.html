@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Imagem</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="gerar.html">Gerar Imagem</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gerar">
+            <h2>Crie sua Imagem com IA</h2>
+            <form id="gerar-form">
+                <label for="descricao">Descreva a imagem que deseja:</label>
+                <textarea id="descricao" name="descricao" rows="4" placeholder="Exemplo: Uma paisagem futurista, com prédios de vidro e céu roxo..."></textarea>
+
+                <button type="submit" class="button">Gerar Imagem</button>
+            </form>
+
+            <div id="imagem-gerada">
+                <!-- Imagem gerada aparecerá aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="fixarRodape">
+        <p>&copy; 2025 Hugo Mendonça - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
